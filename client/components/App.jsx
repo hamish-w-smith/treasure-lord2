@@ -7,7 +7,16 @@ import Home from "./Home";
 const App = () => {
   return (
     <React.Fragment>
-      <h1>Treasure Lord</h1>
+      <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Treasure Lord
+      </h1>
+      <p class="subtitle">
+        My first website with <strong>Bulma</strong>!
+      </p>
+    </div>
+  </section>
 
       <Router>
         <Route exact path="/" component={Home} />
